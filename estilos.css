@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto+Mono');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body    
+{
+    background-color: blanchedalmond;
+}
+
+.TituloPagina
+{
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: #240B3B;
+    color: antiquewhite;
+}
+.contenedor
+{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+}
+.carrito
+{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    cursor: pointer;   
+    
+}
+#producto
+{
+    width: 50%;
+    height: 4em;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5% 0 0 10%;
+}
+.formulario
+{
+   margin-top: 2%;
+}
+p
+{
+    font-size: 1em;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 5%;
+}
+#b1{
+    width:24.5%;
+    height:3em;
+    background-color: #240B3B;
+    border:0px;
+    margin:5% 0 5% 5%;
+    font-family: 'Roboto Mono', monospace;
+    font-size:1em;
+    color: blanchedalmond;
+    cursor: pointer;
+}
